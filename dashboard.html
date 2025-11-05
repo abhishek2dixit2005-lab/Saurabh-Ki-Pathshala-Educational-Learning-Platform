@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard - Saurabh Ki Pathshala</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dashboard-body">
+  <header class="dashboard-header">
+    <h1>Welcome, <span id="userName">Student</span></h1>
+    <nav>
+      <ul>
+        <li><a href="#" id="logoutBtn">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="dashboard">
+    <h2>My Dashboard</h2>
+    <div class="dashboard-grid">
+      <div class="card">
+        <h3>🎥 Recorded Lectures</h3>
+        <p>Watch my latest classes from YouTube channel.</p>
+        <div class="video-grid">
+          <!-- Your YouTube channel embedded -->
+          <iframe 
+            src="https://www.youtube.com/embed?listType=user_uploads&list=saurabhkipathshala"
+            title="Saurabh Ki Pathshala - Recorded Classes"
+            frameborder="0" allowfullscreen>
+          </iframe>
+        </div>
+        <a href="https://www.youtube.com/@saurabhkipathshala" target="_blank" class="btn">Visit My YouTube Channel</a>
+      </div>
+
+      <div class="card">
+        <h3>📘 Study Notes</h3>
+        <ul>
+          <li><a href="#">Mathematics Notes (PDF)</a></li>
+          <li><a href="#">Science Notes (PDF)</a></li>
+          <li><a href="#">English Notes (PDF)</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Saurabh Ki Pathshala | Designed by Abhishek Dixit</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
